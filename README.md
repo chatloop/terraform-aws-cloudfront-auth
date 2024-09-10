@@ -8,6 +8,7 @@ Currently, the only supported provider is Microsoft AzureAD.
 ## Usage
 
 <!-- markdownlint-disable -->
+<!-- x-release-please-start-version -->
 ```hcl
 module "cloudfront_authorizer" {
   source = "github.com/chatloop/terraform-aws-cloudfront-auth?ref=v0.1.0"
@@ -35,6 +36,7 @@ module "cloudfront_authorizer" {
   skip_destroy = true # optional: default = false
 }
 ```
+<!-- x-release-please-end -->
 <!-- markdownlint-restore -->
 
 <!-- markdownlint-disable -->

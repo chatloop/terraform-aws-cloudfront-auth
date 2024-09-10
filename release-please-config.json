@@ -4,6 +4,9 @@
   "packages": {
     ".": {}
   },
+  "extra-files": [
+    "README.md"
+  ],
   "changelog-sections": [
     {
       "type": "feat",
