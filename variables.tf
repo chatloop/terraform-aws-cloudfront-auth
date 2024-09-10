@@ -32,6 +32,12 @@ variable "simple_urls_enabled" {
   default     = true
 }
 
+variable "skip_destroy" {
+  description = "Set to true if you do not wish the function to be deleted at destroy time, and instead just remove the function from the Terraform state."
+  type        = bool
+  default     = false
+}
+
 variable "tenant" {
   description = "Microsoft Azure AD Tenant ID"
   type        = string

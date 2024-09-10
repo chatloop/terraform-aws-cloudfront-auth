@@ -65,5 +65,7 @@ module "lambda" {
     patterns = ["!.gitignore"]
   }
 
+  skip_destroy = var.skip_destroy
+
   depends_on = [local_sensitive_file.config]
 }
