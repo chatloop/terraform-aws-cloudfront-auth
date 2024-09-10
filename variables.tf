@@ -6,6 +6,7 @@ variable "client_id" {
 variable "client_secret" {
   description = "Microsoft Azure AD Client Secret"
   type        = string
+  sensitive   = true
 }
 
 variable "function_name" {
