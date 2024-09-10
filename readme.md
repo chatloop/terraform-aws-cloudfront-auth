@@ -13,12 +13,16 @@ Currently, the only supported provider is Microsoft AzureAD.
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.0 |
+| <a name="requirement_external"></a> [external](#requirement\_external) | ~> 2.0 |
+| <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.0 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | ~> 4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
+| <a name="provider_external"></a> [external](#provider\_external) | 2.3.4 |
+| <a name="provider_local"></a> [local](#provider\_local) | 2.5.1 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | 4.0.5 |
 
 ## Modules
@@ -31,7 +35,9 @@ Currently, the only supported provider is Microsoft AzureAD.
 
 | Name | Type |
 |------|------|
+| [local_sensitive_file.config](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/sensitive_file) | resource |
 | [tls_private_key.key_pair](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) | resource |
+| [external_external.create_config](https://registry.terraform.io/providers/hashicorp/external/latest/docs/data-sources/external) | data source |
 
 ## Inputs
 
