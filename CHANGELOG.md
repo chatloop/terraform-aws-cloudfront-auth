@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.0](https://github.com/chatloop/terraform-aws-cloudfront-auth/compare/v0.1.0...v0.2.0) (2024-09-10)
+
+
+### Features
+
+* added configurable skip_destroy for destroying lambda@edge ([#6](https://github.com/chatloop/terraform-aws-cloudfront-auth/issues/6)) ([9e23ddd](https://github.com/chatloop/terraform-aws-cloudfront-auth/commit/9e23dddffdc94d3ea21b2879fedd3c833b1c4934))
+
+
+### Documentation
+
+* automate readme updates with release-please ([#9](https://github.com/chatloop/terraform-aws-cloudfront-auth/issues/9)) ([d80a240](https://github.com/chatloop/terraform-aws-cloudfront-auth/commit/d80a240203056bf2ac23ae574c9d697c557318bd))
+* uppercase readme to fix release-please ([#8](https://github.com/chatloop/terraform-aws-cloudfront-auth/issues/8)) ([1368652](https://github.com/chatloop/terraform-aws-cloudfront-auth/commit/1368652012d28227ea4ba9c11c831093b7d6a7a0))
+
 ## 0.1.0 (2024-09-10)
 
 
