@@ -11,7 +11,7 @@ Currently, the only supported provider is Microsoft AzureAD.
 <!-- x-release-please-start-version -->
 ```hcl
 module "cloudfront_authorizer" {
-  source = "github.com/chatloop/terraform-aws-cloudfront-auth?ref=v0.2.0"
+  source = "github.com/chatloop/terraform-aws-cloudfront-auth?ref=v0.2.1"
 
   providers = {
     aws = aws.us-east-1 # Ensure you're deploying this module into us-east-1

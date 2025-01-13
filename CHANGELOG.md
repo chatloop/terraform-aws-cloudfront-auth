@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/chatloop/terraform-aws-cloudfront-auth/compare/v0.2.0...v0.2.1) (2024-11-13)
+
+
+### Continuous Integration
+
+* fix typo in release-please reverts type ([#10](https://github.com/chatloop/terraform-aws-cloudfront-auth/issues/10)) ([f917c58](https://github.com/chatloop/terraform-aws-cloudfront-auth/commit/f917c58d67df325b9990c34b7fcd136a87d6c057))
+
 ## [0.2.0](https://github.com/chatloop/terraform-aws-cloudfront-auth/compare/v0.1.0...v0.2.0) (2024-09-10)
 
 
